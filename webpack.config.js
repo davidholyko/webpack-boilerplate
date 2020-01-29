@@ -32,7 +32,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      // inject: 'head',
       template: path.resolve('./public/index.html'),
       favicon: path.resolve('./public/favicon.ico'),
     }),
@@ -40,11 +39,15 @@ module.exports = {
   ],
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, 'build'),
+    // usually path is in /build
+    // static is for gh-pages specfically
+    path: path.join(__dirname, 'static'),
     publicPath: '/',
   },
   devServer: {
-    contentBase: path.join(__dirname, 'build'),
+    // usually path is in /build
+    // static is for gh-pages specfically
+    contentBase: path.join(__dirname, 'static'),
     compress: true,
     port: port,
     hot: true,

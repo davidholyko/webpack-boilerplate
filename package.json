@@ -14,8 +14,7 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
     "svg-url-loader": "^3.0.3",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
+    "webpack-cli": "^3.3.10"
   },
   "scripts": {
     "start": "webpack-dev-server",
@@ -23,7 +22,8 @@
     "build:github": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build:github"
+    "predeploy": "yarn run build:github",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
