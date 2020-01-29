@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/webpack-boilerplate/static/css/main.086696d8.chunk.css",
+    "main.js": "/webpack-boilerplate/static/js/main.9d31f157.chunk.js",
+    "main.js.map": "/webpack-boilerplate/static/js/main.9d31f157.chunk.js.map",
+    "runtime-main.js": "/webpack-boilerplate/static/js/runtime-main.09aea516.js",
+    "runtime-main.js.map": "/webpack-boilerplate/static/js/runtime-main.09aea516.js.map",
+    "static/js/2.3f712d60.chunk.js": "/webpack-boilerplate/static/js/2.3f712d60.chunk.js",
+    "static/js/2.3f712d60.chunk.js.map": "/webpack-boilerplate/static/js/2.3f712d60.chunk.js.map",
+    "index.html": "/webpack-boilerplate/index.html",
+    "precache-manifest.5fc342afc5d05053151210fdf6b3735f.js": "/webpack-boilerplate/precache-manifest.5fc342afc5d05053151210fdf6b3735f.js",
+    "service-worker.js": "/webpack-boilerplate/service-worker.js",
+    "static/css/main.086696d8.chunk.css.map": "/webpack-boilerplate/static/css/main.086696d8.chunk.css.map",
+    "static/js/2.3f712d60.chunk.js.LICENSE": "/webpack-boilerplate/static/js/2.3f712d60.chunk.js.LICENSE",
+    "static/media/logo.svg": "/webpack-boilerplate/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09aea516.js",
+    "static/js/2.3f712d60.chunk.js",
+    "static/css/main.086696d8.chunk.css",
+    "static/js/main.9d31f157.chunk.js"
+  ]
+}
