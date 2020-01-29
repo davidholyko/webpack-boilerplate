@@ -20,7 +20,14 @@ yarn add svg-url-loader
 yarn install
 ```
 
-### Deploy
+### Deploy to Githug Pages
+
+```
+yarn add gh-pages
+yarn deploy
+```
+
+### Deploy to Container
 
 ```
 yarn build
